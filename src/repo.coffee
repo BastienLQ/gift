@@ -256,7 +256,8 @@ module.exports = class Repo
 
     @git "push", {}, args
     , (err, stdout, stderr) ->
-      callback err
+      output = if typeof stderr == 'string' then stderr else null
+      callback err, output
 
   # Public: `git merge <name>`.
   #

@@ -132,6 +132,7 @@ Equivalent to `git remote set-url --delete <name> <url>`.
 
 ### `Repo#remote_push(name, [branch,] callback)`
 `git push <name>`
+The callback receives `(err, output)`, where `output` is the output of the command.
 
 with branch parameter specified:
 `git push <name> <branch>`
