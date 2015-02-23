@@ -1,20 +1,13 @@
 {
-  "name": "gift",
+  "name": "gift-nuolezio",
   "version": "0.5.0",
-  "description": "a Git wrapper library",
+  "description": "A fork of https://github.com/notatestuser/gift used in Nuolez.io. Do not use this package as it may be removed at any time.",
   "keywords": [
     "git",
     "cli",
     "wrapper"
   ],
-  "homepage": "https://github.com/notatestuser/gift",
-  "bugs": {
-    "url": "https://github.com/notatestuser/gift/issues"
-  },
-  "author": {
-    "name": "sentientwaffle",
-    "url": "http://sentientwaffle.github.com/"
-  },
+  "homepage": "https://github.com/BastienLQ/gift",
   "main": "./lib/index",
   "scripts": {
     "test": "mocha --compilers coffee:'./node_modules/coffee-script/lib/coffee-script/register'",
@@ -22,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/notatestuser/gift.git"
+    "url": "https://github.com/BastienLQ/gift.git"
   },
   "dependencies": {
     "underscore": "1.x.x"
